@@ -1,5 +1,7 @@
 # Computer-Generated-Jazz-Improvisation
 
+This was created for my final year project and dissertation and university.
+
 Instructions for running program.
 
 JUCE must be installed to run this program. It can be downloaded at https://juce.com/get-juce.
