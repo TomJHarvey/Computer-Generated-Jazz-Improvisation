@@ -31,4 +31,4 @@ A DAW with midi functionality must also be installed.
 
 13. Set the bpm equal to the file name
 
-14. drag in the midi file, select an instrument and listen!
+14. Drag in the midi file, select an instrument and listen!
