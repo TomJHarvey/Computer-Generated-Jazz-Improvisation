@@ -15,41 +15,8 @@
 
 ReadFiles::ReadFiles()
 {
-    
-    
-    String midiTranscriptionsFilePath = "/Users/Tom/Desktop/Year 3/Final Year Project/Midi transcriptions";
-    String minor7FileEnd = "/Min7/Min7-1Melody";
-    String major7FileEnd = "/Maj7/Maj7-1Melody";
-    String dom7FileEnd = "/Dom7/Dom7-1Melody";
-    String currentFile;
-    String midiFileEnd = ".mid";
-    
-    for (int count = 0; count < 19; count ++)
-    {
-        String Integer(count + 1);
-        currentFile = midiTranscriptionsFilePath + minor7FileEnd + Integer + midiFileEnd;
-        min7Melodies[count] = File::getCurrentWorkingDirectory().getChildFile (String(currentFile));
-    }
-    
-    for (int count = 0; count < 19; count ++)
-    {
-        String Integer(count + 1);
-        currentFile = midiTranscriptionsFilePath + major7FileEnd + Integer + midiFileEnd;
-        maj7Melodies[count] = File::getCurrentWorkingDirectory().getChildFile (String(currentFile));
-    }
-    
-    for (int count = 0; count < 13; count ++)
-    {
-        String Integer(count + 1);
-        currentFile = midiTranscriptionsFilePath + dom7FileEnd + Integer + midiFileEnd;
-        dom7Melodies[count] = File::getCurrentWorkingDirectory().getChildFile (String(currentFile));
-    }
-    
-//    
+  
     ///////// SET THE  FILE PATHS FOR EACH OF TRANSCRIPTIONS WHICH ARE INCLUDED IN THE FOLDER WITH THE MAIN PROJECT
-    
-    
-
     
     min7Melodies[0] = File::getCurrentWorkingDirectory().getChildFile (String("/Users/Tom/Desktop/Year 3/Final Year Project/Midi transcriptions/Min7/Min7-1Melody1.mid"));
     min7Melodies[1] = File::getCurrentWorkingDirectory().getChildFile (String("/Users/Tom/Desktop/Year 3/Final Year Project/Midi transcriptions/Min7/Min7-1Melody2.mid"));
@@ -107,8 +74,38 @@ ReadFiles::ReadFiles()
     dom7Melodies[11] = File::getCurrentWorkingDirectory().getChildFile (String("/Users/Tom/Desktop/Year 3/Final Year Project/Midi transcriptions/Dom7/Dom7-1Melody13.mid"));
     dom7Melodies[12] = File::getCurrentWorkingDirectory().getChildFile (String("/Users/Tom/Desktop/Year 3/Final Year Project/Midi transcriptions/Dom7/Dom7-1Melody14.mid"));
     
-
-
+    // More effecient way to read in files, is a work in progress
+    
+    //
+    //    String midiTranscriptionsFilePath = "/Users/Tom/Desktop/Year 3/Final Year Project/Midi transcriptions";
+    //    String minor7FileEnd = "/Min7/Min7-1Melody";
+    //    String major7FileEnd = "/Maj7/Maj7-1Melody";
+    //    String dom7FileEnd = "/Dom7/Dom7-1Melody";
+    //    String currentFile;
+    //    String midiFileEnd = ".mid";
+    //
+    //    for (int count = 0; count < 19; count ++)
+    //    {
+    //        String Integer(count + 1);
+    //        currentFile = midiTranscriptionsFilePath + minor7FileEnd + Integer + midiFileEnd;
+    //        min7Melodies[count] = File::getCurrentWorkingDirectory().getChildFile (String(currentFile));
+    //    }
+    //
+    //    for (int count = 0; count < 19; count ++)
+    //    {
+    //        String Integer(count + 1);
+    //        currentFile = midiTranscriptionsFilePath + major7FileEnd + Integer + midiFileEnd;
+    //        maj7Melodies[count] = File::getCurrentWorkingDirectory().getChildFile (String(currentFile));
+    //    }
+    //
+    //    for (int count = 0; count < 13; count ++)
+    //    {
+    //        String Integer(count + 1);
+    //        currentFile = midiTranscriptionsFilePath + dom7FileEnd + Integer + midiFileEnd;
+    //        dom7Melodies[count] = File::getCurrentWorkingDirectory().getChildFile (String(currentFile));
+    //    }
+    
+    
     }
     
 ReadFiles::~ReadFiles()
