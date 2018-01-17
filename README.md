@@ -2,42 +2,33 @@
 
 Instructions for running program.
 
-JUCE must be installed to run this program. It can be downloaded at https://juce.com/get-juce
+JUCE must be installed to run this program. It can be downloaded at https://juce.com/get-juce.
+A DAW with midi functionality must also be installed.
 
-1.Fork this repositry 
+1. Open the “Computer Generated Jazz Improvisation.jucer”  
 
-2. Next double click and open the “Computer Generated Jazz Improvisation.jucer”  
+2. On the left hand side click 'Modules' then 'juce_audio_basics' and select 'Use global path for this module'
 
-3. Click on the config tab and click “juce_audio_basics” under the “Modules” tab
+3. Repeat this process for each module on the left hand side or manually chose the path for the modles as JUCE/modules.
 
-4. In the Path for “Xcode (MacOSX)” drop down menu click the ellipsis and naviage to “Final Year Project/JUCE”  and select the ”modules” folder
+4. Click “save project and open in IDE…” which is on the top right next to a pencil icon.
 
-5.In the left hand drop down menu click on “Modules”  which is underneath “juce_audio_basics”
+5. Navigate to ReadFiles.cpp
 
-6. Click on the “juce_audio_basics”  then select “set paths for all modules”  and select “ copy the path from  ‘juce_audio_basics’   to all other modules”
+6. Change the file path for each file to the correct one for the computer being used eg. /Users/Tom/Desktop/Year 3/Final Year Project/Midi transcriptions/Min7/Min7-1Melody1.mid
 
-7. Click “save project and open in IDE…” which is on the bottom left of the window
+7. Navigate to “Main.cpp”.
 
-8. In Xcode, select “FYP program” in the top left of the window then select “FYP program/Source/ReadFiles.Cpp”
+8. Change the variable “songChoice” on line 31 to change the song, and the variable “songRepeat” on line 32 for the number of repetitions 
 
-9. Delete the existing file path between the red quotation marks for the “minMelodies[0]”
+9. Navigate to “PrintFiles.cpp”  and change the string to an apporiate name str += String(“/InsertNameHere”) + String(".mid"); A new file name has to be chosen each time.
 
-10. Navigate to “FinalYearProject/midi transcriptions/Min7”  and drag the MIDI file “Min7-1Melody1.mid” between the red quotation marks
+10. Build and run the program
 
-11. Repeat this process and make sure each chord has the transcriptions in the right place ( once one file path  is dragged in it can be copied to the one below and the numbers are the only thing that needs to be changed)
+11. Search for the MIDI file in finder under the chosen name, or navigate to the “Computer Generated Jazz Improvisation/Builds/MaxOSX/build/debug” and it will be in the debug folder.
 
-12. Navigate to “Main.cpp”  on the left hand side.
+12. Use any DAW with midi and audio combaibility and drag in the backing track which ever song it generated the solo for found in FinalYearProject/Backing Tracks
 
-13. Change the variable “songChoice”  to change the song, and the variable “songRepeat” for the number of repetitions 
+13. Set the bpm equal to the file name
 
-14. Navigate to “PrintFiles.cpp”  and change the string to name the song between this line  str += String(“/InsertNameHere”) + String(".mid"); A new file name has to be chosen each time.
-
-15. Build and run the program
-
-16. Search for the MIDI file in finder under the chosen name, or navigate to the “Final Year Project/Computer Generated Jazz Improvisation/Builds/MaxOSX/build/debug” and it should be in the debug folder.
-
-17. Use any DAW with midi and audio combaibility and drag in the backing track which ever song it generated the solo for found in FinalYearProject/Backing Tracks
-
-18. Set the bpm equal to the file name
-
-19. drag in the midi file, select an instrument and listen!
+14. drag in the midi file, select an instrument and listen!
