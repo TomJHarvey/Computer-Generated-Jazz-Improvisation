@@ -17,7 +17,7 @@ A DAW with midi functionality must also be installed.
 
 5. Navigate to ReadFiles.cpp
 
-6. Change the file path for each file to the correct one for the computer being used eg. /Users/Tom/Desktop/Year 3/Final Year Project/Midi transcriptions/Min7/Min7-1Melody1.mid
+6. Change the file path for each file to the correct one for the computer being used eg. /Users/Tom/Desktop/Year 3/Final Year Project/Midi transcriptions/Min7/Min7-1Melody1.mid. The Midi transcriptions is found in the materials folder.
 
 7. Navigate to “Main.cpp”.
 
@@ -29,7 +29,7 @@ A DAW with midi functionality must also be installed.
 
 11. Search for the MIDI file in finder under the chosen name, or navigate to the “Computer Generated Jazz Improvisation/Builds/MaxOSX/build/debug” and it will be in the debug folder.
 
-12. Use any DAW with midi and audio combaibility and drag in the backing track which ever song it generated the solo for found in FinalYearProject/Backing Tracks
+12. Use any DAW with midi and audio combaibility and drag in the backing track which ever song it generated the solo for found in Materials/Backing Tracks
 
 13. Set the bpm equal to the file name
 
