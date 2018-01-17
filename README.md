@@ -1,6 +1,6 @@
 # Computer-Generated-Jazz-Improvisation
 
-This was created for my final year project and dissertation and university.
+This was created for my final year project and dissertation and university. The materials zip contains backing tracks, the midi files this program needs for analysis and the dissertation which demonstrates how this application was created and the future plans for this project.
 
 Instructions for running program.
 
