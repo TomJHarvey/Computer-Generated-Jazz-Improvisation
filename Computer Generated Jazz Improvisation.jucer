@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="lit8e7" name="Computer Generated Jazz Improvisation" displaySplashScreen="1"
+              reportAppUsage="1" splashScreenColour="Dark" projectType="consoleapp"
+              version="1.0.0" bundleIdentifier="com.yourcompany.ComputerGeneratedJazzImprovisation"
+              includeBinaryInAppConfig="1" cppLanguageStandard="11" companyCopyright=""
+              jucerVersion="5.2.0">
+  <MAINGROUP id="pfW5MT" name="Computer Generated Jazz Improvisation">
+    <GROUP id="{55336535-6959-8564-663A-490480CE8980}" name="Source">
+      <FILE id="KMqRdP" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+    <FILE id="u8HoF5" name="CalculateInterval.cpp" compile="1" resource="0"
+          file="Source/CalculateInterval.cpp"/>
+    <FILE id="kJVGk6" name="CalculateInterval.h" compile="0" resource="0"
+          file="Source/CalculateInterval.h"/>
+    <FILE id="sXSEYF" name="CalculateSequence.cpp" compile="1" resource="0"
+          file="Source/CalculateSequence.cpp"/>
+    <FILE id="Tta1Om" name="CalculateSequence.h" compile="0" resource="0"
+          file="Source/CalculateSequence.h"/>
+    <FILE id="qoGwNC" name="ChordLibrary.cpp" compile="1" resource="0"
+          file="Source/ChordLibrary.cpp"/>
+    <FILE id="Y8D9P7" name="ChordLibrary.h" compile="0" resource="0" file="Source/ChordLibrary.h"/>
+    <FILE id="z2LCaf" name="GenerateSequence.cpp" compile="1" resource="0"
+          file="Source/GenerateSequence.cpp"/>
+    <FILE id="cfUC2r" name="GenerateSequence.h" compile="0" resource="0"
+          file="Source/GenerateSequence.h"/>
+    <FILE id="HfSB29" name="GenerateThirdDyad.cpp" compile="1" resource="0"
+          file="Source/GenerateThirdDyad.cpp"/>
+    <FILE id="sqKXdb" name="GenerateThirdDyad.h" compile="0" resource="0"
+          file="Source/GenerateThirdDyad.h"/>
+    <FILE id="a9pSXH" name="PrintFiles.cpp" compile="1" resource="0" file="Source/PrintFiles.cpp"/>
+    <FILE id="jyRx2u" name="PrintFiles.h" compile="0" resource="0" file="Source/PrintFiles.h"/>
+    <FILE id="QwIkcK" name="ReadFiles.cpp" compile="1" resource="0" file="Source/ReadFiles.cpp"/>
+    <FILE id="RORfPA" name="ReadFiles.h" compile="0" resource="0" file="Source/ReadFiles.h"/>
+    <FILE id="SDqjT7" name="RhythmLibrary.cpp" compile="1" resource="0"
+          file="Source/RhythmLibrary.cpp"/>
+    <FILE id="nDL87b" name="RhythmLibrary.h" compile="0" resource="0" file="Source/RhythmLibrary.h"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" enablePluginBinaryCopyStep="1" isDebug="1" optimisation="1"
+                       linkTimeOptimisation="0" targetName="Computer Generated Jazz Improvisation"/>
+        <CONFIGURATION name="Release" enablePluginBinaryCopyStep="1" isDebug="0" optimisation="3"
+                       linkTimeOptimisation="1" targetName="Computer Generated Jazz Improvisation"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Downloads/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
